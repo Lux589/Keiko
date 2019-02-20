@@ -18,7 +18,6 @@ http://www.gnu.org/licenses/gpl.html
 	$window.resize(function () {
 		windowHeight = $window.height();
 	});
-
 	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
 		var $this = $(this);
 		var getHeight;
